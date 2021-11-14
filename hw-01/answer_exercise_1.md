@@ -1,0 +1,5 @@
+## 1.- Indica la diferencia entre el uso de la instrucción CMD y ENTRYPOINT
+
+- CMD: el proposito principal de CMD es proporcionar comandos y/o parámetros predeterminados en una imagen para un contenedor. CMD se incluye en la imagen del contenedor y especifica comando/parámetros en el momento de la ejecución del contenedor. Los usuarios pueden sobreecribir estos valores desde el CLI de Docker cuando el contenedor se está ejecutando. Se puede utilizar para indicar los parámetros a una instrucción ENTRYPOINT. En este caso hay que especificarlo con el formato de matríz JSON al igual que la instrucción ENTRYPOING (ej: CMD ["param1","param2"])
+
+- ENTRYPOINT: la instrucción se incluye en la imagen del contenedor y también especifica el comando, con sus parámetros asociados si los tuviera, en el momento de la ejecución del contenedor. Los parámetros que se pasen desde el CLI de Docker se anexarán al comando especificado en el ENTRYPOINT. La principal diferencia con CMD es que este comando y parámetros no se pueden sobreescribir desde el CLI de Docker.
