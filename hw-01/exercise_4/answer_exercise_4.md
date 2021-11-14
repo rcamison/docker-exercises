@@ -21,7 +21,9 @@
 ## Paso 4: una vez que el contenedor pasa a un estado "healthy" se comprueba que la prueba se ejecuta cada 45 segundos
 ![image](https://user-images.githubusercontent.com/85695417/141695628-5290bc4c-627a-4669-8de3-c711cdc8f31e.png)
 
-## Paso 5: comprobar que tras dos fallos el contenedor pasa a un estado "unhealthy". Para provocar el error se ha renombrado el archivo index.html como index2.html. De esta forma la llamada fallará
+## Paso 5: comprobar que tras dos fallos el contenedor pasa a un estado "unhealthy". 
+	Para provocar el error se ha renombrado el archivo index.html como index2.html. De esta forma la llamada fallará.
+	
 ![image](https://user-images.githubusercontent.com/85695417/141695672-f0617442-320c-46bb-adb3-3197a58c021f.png)
 
 ![image](https://user-images.githubusercontent.com/85695417/141695724-57c0aeae-2fce-4667-a393-abff42586a77.png)
