@@ -56,7 +56,7 @@ networks:
 	docker-compose up -d
 	Los contenedores se llaman els y kib
 
-	![image](https://user-images.githubusercontent.com/85695417/141696697-d7988aaf-27b1-4103-97ab-aee0ab1c1b19.png)
+	![image](https://user-images.githubusercontent.com/85695417/141696864-9fa6e635-5d05-44b6-8b2c-d8adcb194c8e.png)
 	
 ### Paso 3: comprobar
 
